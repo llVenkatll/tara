@@ -1,0 +1,20 @@
+.accepted-container {
+  text-align: center;
+  background-color: #ffc1d3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accepted-gif {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.accepted-text {
+  font-size: 2rem;
+  color: #c2185b;
+}

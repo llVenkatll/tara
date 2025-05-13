@@ -1,0 +1,49 @@
+.proposal-container {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.proposal-gif {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.proposal-text {
+  font-size: 2rem;
+  color: #d63384;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+.yes-btn {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.no-btn {
+  position: absolute;
+  padding: 12px 24px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: top 0.2s ease, left 0.2s ease;
+}
