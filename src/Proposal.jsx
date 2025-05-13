@@ -12,7 +12,7 @@ function Proposal({ onAccept }) {
 
   return (
     <div className="proposal-container">
-      <img src="/assets/proposal.gif" alt="Cute GIF" className="proposal-gif" />
+      <img src="./assets/proposal.gif" alt="Cute GIF" className="proposal-gif" />
       <h1 className="proposal-text">
         {askedAgain ? "Please? 🥺" : "Will you marry me? 💍"}
       </h1>
